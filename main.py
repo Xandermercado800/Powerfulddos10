@@ -751,7 +751,7 @@ def test1(url, th, t):
     req += 'Accept-Encoding: gzip, deflate, br\r\n'
     req += 'Accept-Language: ko,ko-KR;q=0.9,en-US;q=0.8,en;q=0.7\r\n'
     req += 'Cache-Control: max-age=0\r\n'
-    #req += 'Cookie: ' + cookie + '\r\n'
+    req += 'Cookie: ' + cookie + '\r\n'
     req += f'sec-ch-ua: "Chromium";v="100", "Google Chrome";v="100"\r\n'
     req += 'sec-ch-ua-mobile: ?0\r\n'
     req += 'sec-ch-ua-platform: "Windows"\r\n'
@@ -797,8 +797,8 @@ def clear():
 def help():
     clear()
     stdout.write("                                                                                         \n")
-    stdout.write("                                 "+Fore.LIGHTWHITE_EX   +"  ╦ ╦╔═╗╦  ╔═╗             \n")
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX    +"  ╠═╣║╣ ║  ╠═╝             \n")
+    stdout.write("                                 "+Fore.LIGHTWHITE_EX   +"  ╦ ╦╔═╗╦  ╔═╗              \n")
+    stdout.write("                                 "+Fore.LIGHTCYAN_EX    +"  ╠═╣║╣ ║  ╠═╝              \n")
     stdout.write("                                 "+Fore.LIGHTCYAN_EX    +"  ╩ ╩╚═╝╩═╝╩                \n")
     stdout.write("             "+Fore.LIGHTCYAN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTCYAN_EX            +"╔═════════╩═════════════════════════════════╩═════════╗\n")
@@ -887,14 +887,13 @@ def title():
     stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ░╚███╔╝░███████║██╔██╗██║ \n")
     stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ░██╔██╗░██╔══██║██║╚████║ \n")
     stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ██╔╝╚██╗██║░░██║██║░╚███║ \n")
-                                                                         +"  ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
-
-████████╗░█████╗░░█████╗░██╗░░░░░░██████╗
-╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝
-░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░
-░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗
-░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝
-░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░             \n")
+    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝ \n")
+    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ████████╗░█████╗░░█████╗░██╗░░░░░░██████╗ \n")
+    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝ \n")
+    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░ \n")
+    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗ \n")
+    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝ \n")
+    stdout.write("                                 "+Fore.LIGHTWHITE_EX  +"  ░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░ \n")
     stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"               \n")
     stdout.write("                                 "+Fore.LIGHTCYAN_EX   +"               \n")
     stdout.write("             "+Fore.LIGHTCYAN_EX            +"        ══╦═════════════════════════════════╦══\n")
